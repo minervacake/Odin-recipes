@@ -1,13 +1,29 @@
 * {
-    background-color: rgb(51, 51, 102);
+    background-color: rgb(53, 48, 94);
 }
 h1 {
     color: white;
     font-size: 80px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Baskerville";
     text-align: center;
-    background-color: rgb(238, 151, 166);
+    background-color: rgb(240, 157, 151);
 }
-li {
-    font-size
+
+li{
+    text-align: center;
+    list-style: none;
+}
+
+a:link {
+    font-size: 40px;
+    color:white;
+    text-decoration: none;
+
+}
+a:visited {
+    color:rgb(243, 192, 192);
+}
+
+a:hover{
+    background-color: white;
 }
