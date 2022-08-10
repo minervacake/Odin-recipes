@@ -1,17 +1,20 @@
-* {
+/* index*/
+
+#index-page {
     background-color: rgb(53, 48, 94);
 }
-h1 {
+.index-h1{
     color: white;
     font-size: 80px;
-    font-family: "Baskerville";
+    font-family: proxima-nova, sans-serif;
     text-align: center;
     background-color: rgb(240, 157, 151);
 }
 
-li{
+.index-list{
     text-align: center;
     list-style: none;
+    font-family: proxima-nova, sans-serif;
 }
 
 a:link {
@@ -25,5 +28,16 @@ a:visited {
 }
 
 a:hover{
-    background-color: white;
+    color: white;
+}
+
+/* katsudon.css */
+
+#katsudon-page {
+    background-color: rgb(34, 36, 48);
+}
+
+.page-heading {
+    color: rgb(238, 198, 90);
+    font-family: proxima-nova, sans-serif;
 }
