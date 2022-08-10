@@ -40,4 +40,19 @@ a:hover{
 .page-heading {
     color: rgb(238, 198, 90);
     font-family: proxima-nova, sans-serif;
+    text-align: center;
+    letter-spacing: .05em ;
+    font-size: 80px;
+    line-height:10pt ;
+
+}
+.class,.img {
+    border: 3px solid beige;
+    padding: 2px;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
 }
